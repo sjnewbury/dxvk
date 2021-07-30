@@ -20,11 +20,6 @@ namespace dxvk {
     { R"(\\dffnt\.exe$)", {{
       { "dxgi.deferSurfaceCreation",        "True" },
     }} },
-    /* Elite Dangerous: Compiles weird shaders    *
-     * when running on AMD hardware               */
-    { R"(\\EliteDangerous64\.exe$)", {{
-      { "dxgi.customVendorId",              "10de" },
-    }} },
     /* The Vanishing of Ethan Carter Redux        */
     { R"(\\EthanCarter-Win64-Shipping\.exe$)", {{
       { "dxgi.customVendorId",              "10de" },
